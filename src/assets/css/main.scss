@@ -1,0 +1,36 @@
+// You first import the utilities because you may use them to generate a value.
+@import "~bulma/sass/utilities/_all";
+// set the new values
+$family-primary: "Titillium Web", "Assistant", sans-serif;
+$primary: #41B883;
+$success: #30A64A;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+// $border-hover: $primary;
+$link: $primary;
+// $link-hover: $primary;
+// $link-active-border: $primary;
+// $input-focus-border-color: hsl(153, 53%,  53%);
+// $input-focus-box-shadow-color: hsl(153, 53%,  53%);
+// $input-color: $text-strong !default;
+// $input-background-color: $scheme-main !default;
+// $input-border-color: $border !default;
+// $input-height: $control-height !default;
+// $input-shadow: inset 0 0.0625em 0.125em rgba($scheme-invert, 0.05) !default;
+// $input-placeholder-color: bulmaRgba($input-color, 0.3) !default;
+
+// $input-hover-color: $text-strong !default;
+// $input-hover-border-color: $border-hover !default;
+
+// $input-focus-color: $text-strong !default;
+// $input-focus-border-color: $link !default;
+// $input-focus-box-shadow-size: 0 0 0 0.125em !default;
+// $input-focus-box-shadow-color: bulmaRgba($link, 0.25) !default;
+
+// $input-disabled-color: $text-light !default;
+// $input-disabled-background-color: $background !default;
+// $input-disabled-border-color: $background !default;
+// $input-disabled-placeholder-color: bulmaRgba($input-disabled-color, 0.3) !default;
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
